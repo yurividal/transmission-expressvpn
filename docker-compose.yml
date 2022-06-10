@@ -3,7 +3,7 @@ services:
   transmission-expressvpn:
     privileged: true
     container_name: transmission-expressvpn
-    image: yurividal/expressvpn-transmission-arm64:latest
+    image: yurividal/transmission-expressvpn-arm64:latest
     cap_add:
       - NET_ADMIN
     devices:
